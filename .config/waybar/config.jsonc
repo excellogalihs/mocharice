@@ -1,8 +1,9 @@
+
 {
   "position": "top",
   "modules-left": ["custom/arch", "hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
+  "modules-right": ["custom/polycat", "pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
   "custom/arch": {
     "format": "  󰣇 ",
     "tooltip": false, 
@@ -17,8 +18,12 @@
     "format": " {:%A %H:%M} ",
     "tooltip": false
   },
+  "custom/polycat": {
+    "exec": "/usr/bin/polycat",
+    "tail": true
+  },
   "pulseaudio": {
-    "format": " {icon} ",
+    "format": "   {icon} ",
     "format-icons": {
       "default": [" ", " ", " "]
     },
@@ -52,4 +57,3 @@
     "on-click": "wlogout"
   },
 }
-

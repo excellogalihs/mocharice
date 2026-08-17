@@ -5,7 +5,7 @@ rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm hyprmod wlogout
+yay -S --noconfirm hyprmod polycat wlogout
 chsh -s $(which zsh)
 cp -rf ~/mocharice/powerlevel10k ~/
 cp -rf ~/mocharice/.p10k.zsh ~/

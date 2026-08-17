@@ -20,6 +20,10 @@
 #clock {
   color: @mauve;
 }
+#custom-polycat {
+  font-size: 30px;
+  color: @mauve;
+}
 #pulseaudio {
   color: @mauve;
 }
