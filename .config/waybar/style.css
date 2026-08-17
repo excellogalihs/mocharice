@@ -1,0 +1,41 @@
+@define-color mauve     #cba6f7;
+@define-color text      #cdd6f4;
+@define-color surface   #313244;
+@define-color base      #1e1e2e;
+* {
+  font-family: "JetBrainsMono Nerd Font Propo";
+}
+#waybar {
+  background-color: @base;
+}
+#custom-arch {
+  color: @mauve;
+}
+#workspaces button {
+  color: @text;
+}
+#workspaces button.active {
+  color: @mauve;
+}
+#clock {
+  color: @mauve;
+}
+#pulseaudio {
+  color: @mauve;
+}
+#network {
+  color: @mauve;
+}
+#power-profiles-daemon {
+  color: @mauve;
+}
+#custom-power {
+  color: @mauve;
+}
+tooltip {
+  background-color: @base;
+  border-color: @base;
+}
+tooltip label {
+  color: @text;
+}

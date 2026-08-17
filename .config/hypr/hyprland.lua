@@ -1,0 +1,8 @@
+require("modules.autostart")
+require("modules.decorations")
+require("modules.input")
+require("modules.keybinds")
+require("modules.layout")
+require("modules.misc")
+require("modules.monitors")
+require("hyprland-gui")
