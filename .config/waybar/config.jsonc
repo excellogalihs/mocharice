@@ -5,19 +5,23 @@
   "modules-right": ["custom/polycat", "pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
   "custom/arch": {
     "format": "  󰣇 ",
+    "tooltip": false,
     "on-click": "hyprmod"
   },
   "hyprland/workspaces": {
     "persistent-workspaces": {
       "*": [1, 2, 3, 4, 5]
-    }
+    },
+    "tooltip": false
   },
   "clock": {
     "format": " {:%A %H:%M} ",
+    "tooltip": false
   },
   "custom/polycat": {
     "exec": "/usr/bin/polycat",
-    "tail": true
+    "tail": true,
+    "tooltip": false
   },
   "pulseaudio": {
     "format": "   {icon} ",
@@ -25,18 +29,18 @@
       "default": [" ", " ", " "]
     },
     "scroll-step": 5,
-    "tooltip-format": " {volume}% ",
+    "tooltip": false,
     "on-click": "kitty zsh -ic 'wiremix'"
   },
   "network": {
     "format": " 󰤥  ",
-    "tooltip-format": " {essid} ",
+    "tooltip": false,
     "on-click": "kitty zsh -ic 'nmtui'"
   },
   "battery": {
     "format": " {icon} ",
     "format-icons": [" ", " ", " ", " ", " "],
-    "tooltip-format": " {capacity}% "
+    "tooltip": false
   },
   "power-profiles-daemon": {
     "format": " {icon} ",
@@ -46,9 +50,11 @@
       "balanced": " ",
       "power-saver": " "
     },
+    "tooltip": false,
   },
   "custom/power": {
     "format": "   ",
+    "tooltip": false,
     "on-click": "wlogout"
   },
 }
