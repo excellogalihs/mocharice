@@ -11,5 +11,5 @@ cp -rf ~/mocharice/powerlevel10k ~/
 cp -rf ~/mocharice/.p10k.zsh ~/
 cp -rf ~/mocharice/.zshrc ~/
 cp -rf ~/mocharice/.config/{fastfetch,hypr,kitty,nvim,waybar,wlogout,wofi} ~/.config/
-awww img ~/mocharice/wallpapers/storm.jpg
+awww img ~/mocharice/wallpapers/piano.jpg
 reboot
