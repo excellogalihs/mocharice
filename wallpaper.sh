@@ -1,7 +1,7 @@
 #!/bin/bash
 choice=$(ls ~/mocharice/wallpapers/ | wofi --dmenu --prompt "Wallpaper:")
 awww img ~/mocharice/wallpapers/$choice --transition-type random --transition-duration 3
-echo "
+cat <<EOF >~/.config/hypr/hyprlock.conf
 background {
   path = ~/mocharice/wallpapers/$choice
   blur_size = 3
@@ -10,4 +10,4 @@ background {
 input-field {
   size = 300, 50
 }
-" >.config/hypr/hyprlock.conf
+EOF
