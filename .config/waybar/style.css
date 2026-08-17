@@ -30,6 +30,9 @@
 #network {
   color: @mauve;
 }
+#battery {
+  color: @mauve;
+}
 #power-profiles-daemon {
   color: @mauve;
 }
