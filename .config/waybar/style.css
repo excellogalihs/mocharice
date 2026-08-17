@@ -44,5 +44,5 @@ tooltip {
   border-color: @base;
 }
 tooltip label {
-  color: @text;
+  color: @mauve;
 }

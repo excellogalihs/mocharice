@@ -5,7 +5,7 @@
   "modules-right": ["custom/polycat", "pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
   "custom/arch": {
     "format": "  󰣇 ",
-    "tooltip": false,
+    "tooltip-format": false,
     "on-click": "hyprmod"
   },
   "hyprland/workspaces": {
@@ -29,18 +29,18 @@
       "default": [" ", " ", " "]
     },
     "scroll-step": 5,
-    "tooltip": false,
+    "tooltip-format": " {volume}% ",
     "on-click": "kitty zsh -ic 'wiremix'"
   },
   "network": {
     "format": " 󰤥  ",
-    "tooltip": false,
+    "tooltip-format": " {essid} ",
     "on-click": "kitty zsh -ic 'nmtui'"
   },
   "battery": {
     "format": " {icon} ",
     "format-icons": [" ", " ", " ", " ", " "],
-    "tooltip": false
+    "tooltip-format": " {capacity%} "
   },
   "power-profiles-daemon": {
     "format": " {icon} ",
