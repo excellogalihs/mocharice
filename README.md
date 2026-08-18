@@ -1,4 +1,4 @@
-![screenshot](screenshot.jpg)
+![screenshot](screenshot.png)
 # Keybinds
 1. SUPER + ENTER = Open kitty terminal
 2. SUPER + Q = Close window
