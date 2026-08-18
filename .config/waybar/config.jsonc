@@ -5,7 +5,7 @@
   "modules-right": ["custom/polycat", "pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
   "custom/arch": {
     "format": "  󰣇 ",
-    "tooltip-format": false,
+    "tooltip": false,
     "on-click": "hyprmod"
   },
   "hyprland/workspaces": {
