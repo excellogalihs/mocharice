@@ -46,7 +46,7 @@
   "battery": {
     "format": " {icon} ",
     "format-icons": [" ", " ", " ", " ", " "],
-    "tooltip-format": " {capacity%} "
+    "tooltip-format": " {capacity}% "
   },
   "power-profiles-daemon": {
     "format": " {icon} ",
