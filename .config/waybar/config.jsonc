@@ -1,6 +1,6 @@
 {
   "position": "top",
-  "modules-left": ["custom/arch", "hyprland/workspaces"],
+  "modules-left": ["custom/arch", "hyprland/workspaces", "mpris"],
   "modules-center": ["clock"],
   "modules-right": ["custom/polycat", "pulseaudio", "network", "battery", "power-profiles-daemon", "custom/power"],
   "custom/arch": {
@@ -13,6 +13,12 @@
       "*": [1, 2, 3, 4, 5]
     },
     "tooltip": false
+  },
+  "mpris": {
+    "format": "  {artist} - {title} ",
+    "format-paused": " 󰐊 {title} - {artist} ",
+    "max-length": 30,
+    "tooltip": false,
   },
   "clock": {
     "format": " {:%A %H:%M} ",

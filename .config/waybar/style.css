@@ -17,6 +17,9 @@
 #workspaces button.active {
   color: @mauve;
 }
+#mpris {
+  color: @mauve;
+}
 #clock {
   color: @mauve;
 }
