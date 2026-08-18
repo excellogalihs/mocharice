@@ -36,6 +36,9 @@
 #battery {
   color: @mauve;
 }
+#battery.charging {
+  color: @text;
+}
 #power-profiles-daemon {
   color: @mauve;
 }
