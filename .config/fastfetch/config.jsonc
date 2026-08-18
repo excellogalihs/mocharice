@@ -25,10 +25,10 @@
       "type": "uptime",
     },
     {
-      "key": " ",
+      "key": " ",
       "keyColor": "#cba6f7",
-      "type": "shell",
-      "format": "zsh",
+      "type": "kernel",
+      "format": "linux",
     },
     {
       "key": "󰣇 ",
@@ -37,10 +37,10 @@
       "format": "arch btw",
     },
     {
-      "key": " ",
+      "key": " ",
       "keyColor": "#cba6f7",
-      "type": "kernel",
-      "format": "linux",
+      "type": "shell",
+      "format": "zsh",
     },
     {
       "key": " ",
