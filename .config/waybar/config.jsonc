@@ -15,7 +15,7 @@
     "tooltip": false
   },
   "mpris": {
-    "format": "  {artist} - {title} ",
+    "format": "  {title} - {artist} ",
     "format-paused": " 󰐊 {title} - {artist} ",
     "max-length": 30,
     "tooltip": false,
