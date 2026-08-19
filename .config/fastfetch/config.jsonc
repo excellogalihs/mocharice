@@ -20,11 +20,6 @@
       "format": "{user-name}",
     },
     {
-      "key": " ",
-      "keyColor": "#cba6f7",
-      "type": "uptime",
-    },
-    {
       "key": " ",
       "keyColor": "#cba6f7",
       "type": "kernel",
@@ -49,10 +44,16 @@
       "format": "kitty",
     },
     {
-      "key": " ",
+      "key": " ",
       "keyColor": "#cba6f7",
-      "type": "colors",
-      "symbol": "circle",
+      "type": "uptime",
+    },
+    {
+      "key": " ",
+      "keyColor": "#cba6f7",
+      "type": "disk",
+      "folders": "/",
+      "format": "{days} days",
     }
   ]
 }
