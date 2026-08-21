@@ -22,7 +22,7 @@
 20. SUPER + SHIFT + X = Brightness up
 21. SUPER + SHIFT + Z = Brightness down
 # Prerequisites
-1. A fully functional Arch Linux setup
+1. A fully functional Arch Linux setup (installed with hyprland using the archinstall script)
 2. Curl
 # Installation
 ```bash
