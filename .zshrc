@@ -14,6 +14,7 @@ alias updateyay='yay -Syu --noconfirm'
 alias search='nvim $(fzf --preview="bat --color=always {}")'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
+alias i='yay -S --noconfirm'
 install() {
   yay -Slq | fzf -m --preview 'yay -Si {}' | xargs -ro yay -S --noconfirm
 }
