@@ -24,6 +24,7 @@
   color: @mauve;
 }
 #custom-polycat {
+  font-family: "polycat";
   font-size: 25px;
   color: @mauve;
 }
