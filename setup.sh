@@ -6,6 +6,21 @@ git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
 yay -S --noconfirm hyprmod polycat wlogout
+sudo cat <<EOF >~/.config/hypr/hyprlock.conf
+[options]
+HoldPkg     = pacman glibc
+Architecture = auto
+ILoveCandy
+CheckSpace
+ParallelDownloads = 5
+DownloadUser = alpm
+SigLevel    = Required DatabaseOptional
+LocalFileSigLevel = Optional
+[core]
+Include = /etc/pacman.d/mirrorlist
+[extra]
+Include = /etc/pacman.d/mirrorlist
+EOF
 chsh -s $(which zsh)
 cp -rf ~/mocharice/powerlevel10k ~/
 cp -rf ~/mocharice/.p10k.zsh ~/
