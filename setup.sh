@@ -8,13 +8,13 @@ makepkg -si --noconfirm
 yay -S --noconfirm hyprmod polycat wlogout
 sudo cat <<EOF >~/.config/hypr/hyprlock.conf
 [options]
-HoldPkg     = pacman glibc
+HoldPkg = pacman glibc
 Architecture = auto
 ILoveCandy
 CheckSpace
 ParallelDownloads = 5
 DownloadUser = alpm
-SigLevel    = Required DatabaseOptional
+SigLevel = Required DatabaseOptional
 LocalFileSigLevel = Optional
 [core]
 Include = /etc/pacman.d/mirrorlist
