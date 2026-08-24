@@ -6,7 +6,7 @@ git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
 yay -S --noconfirm hyprmod polycat wlogout
-sudo cat <<EOF >~/.config/hypr/hyprlock.conf
+sudo cat <<EOF >/etc/pacman.conf
 [options]
 HoldPkg = pacman glibc
 Architecture = auto
