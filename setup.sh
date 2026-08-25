@@ -5,7 +5,7 @@ rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm hyprmod polycat wlogout
+yay -S --noconfirm hyprmod polycat oh-my-posh wlogout
 sudo tee /etc/pacman.conf <<EOF
 [options]
 HoldPkg = pacman glibc
@@ -22,9 +22,8 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/mirrorlist
 EOF
 chsh -s $(which zsh)
-cp -rf ~/mocharice/powerlevel10k ~/
-cp -rf ~/mocharice/.p10k.zsh ~/
 cp -rf ~/mocharice/.zshrc ~/
+cp -rf ~/mocharice/.config/omp.toml ~/.config/
 cp -rf ~/mocharice/.config/{fastfetch,hypr,kitty,nvim,waybar,wlogout,wofi} ~/.config/
 awww img ~/mocharice/wallpapers/plane.jpg
 reboot

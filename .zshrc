@@ -9,6 +9,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.config/omp.toml)"
 alias update='sudo pacman -Syu --noconfirm'
 alias updateyay='yay -Syu --noconfirm'
 alias search='nvim $(fzf --preview="bat --color=always {}")'
@@ -23,8 +24,3 @@ push() {
   git commit -m "$*"
   git push
 }
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
