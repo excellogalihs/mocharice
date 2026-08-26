@@ -1,6 +1,5 @@
-version = 2
-final_space = true
 console_title_template = '{{ .Shell }} in {{ .Folder }}'
+final_space = true
 [[blocks]]
   type = 'prompt'
   alignment = 'left'
@@ -13,6 +12,9 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   template = '{{ .Path }}'
 [blocks.segments.properties]
   style = 'full'
+[[blocks.segments]]
+  type = 'git'
+  style = 'plain'
 [[blocks]]
   type = 'prompt'
   alignment = 'left'

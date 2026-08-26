@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-sudo pacman -S --noconfirm git base-devel hyprland hyprlock hyprpolkitagent xdg-desktop-portal-hyprland kitty zsh zsh-autosuggestions zsh-syntax-highlighting awww waybar wofi power-profiles-daemon wiremix nvim yazi fzf fd ripgrep bat zoxide eza tree-sitter-cli fastfetch grim wl-clipboard firefox ttf-jetbrains-mono-nerd
+sudo pacman -S --noconfirm awww base-devel bat eza fastfetch fd firefox fzf git grim hyprland hyprlock hyprpolkitagent kitty nvim power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
 rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
@@ -22,6 +22,7 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/mirrorlist
 EOF
 chsh -s $(which zsh)
+cp -rf ~/mocharice/.tmux.conf ~/
 cp -rf ~/mocharice/.zshrc ~/
 cp -rf ~/mocharice/.config/omp.toml ~/.config/
 cp -rf ~/mocharice/.config/{fastfetch,hypr,kitty,nvim,waybar,wlogout,wofi} ~/.config/
