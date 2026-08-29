@@ -13,6 +13,7 @@
 }
 #workspaces button {
   color: @text;
+  padding: 3px;
 }
 #workspaces button.active {
   color: @mauve;
