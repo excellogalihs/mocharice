@@ -10,12 +10,12 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/omp.toml)"
-alias update='sudo pacman -Syu --noconfirm'
-alias updateyay='yay -Syu --noconfirm'
-alias search='nvim $(fzf --preview="bat --color=always {}")'
+alias u='sudo pacman -Syu --noconfirm'
+alias uy='yay -Syu --noconfirm'
+alias i='yay -S --noconfirm'
+alias s='nvim $(fzf --preview="bat --color=always {}")'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
-alias i='yay -S --noconfirm'
 install() {
   yay -Slq | fzf -m --preview 'yay -Si {}' | xargs -ro yay -S --noconfirm
 }
