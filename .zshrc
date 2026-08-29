@@ -14,6 +14,7 @@ alias u='sudo pacman -Syu --noconfirm'
 alias uy='yay -Syu --noconfirm'
 alias i='yay -S --noconfirm'
 alias s='nvim $(fzf --preview="bat --color=always {}")'
+alias t='tmux a -t space'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
 install() {
