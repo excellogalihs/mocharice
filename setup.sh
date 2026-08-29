@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-sudo pacman -S --noconfirm awww base-devel bat eza fastfetch fd firefox fzf git grim hyprland hyprlock hyprpolkitagent kitty nvim power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo pacman -S --noconfirm awww base-devel bat breeze-dark eza fastfetch fd firefox fzf git grim hyprland hyprlock hyprpolkitagent kitty nvim nwg-look papirus-icon-theme power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
 rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
