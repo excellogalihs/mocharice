@@ -25,6 +25,6 @@ cp -rf ~/mocharice/.tmux.conf ~/
 cp -rf ~/mocharice/.zshrc ~/
 cp -rf ~/mocharice/.config/omp.toml ~/.config/
 cp -rf ~/mocharice/.config/{fastfetch,gtk-3.0,hypr,kitty,nvim,waybar,wlogout,wofi} ~/.config/
-tmux new -ds space
+tmux new -ds workspace
 awww img ~/mocharice/wallpapers/plane.jpg
 reboot
