@@ -8,7 +8,7 @@ background {
   blur_passes = 3
 }
 label {
-  text = $TIME
+  text = \$TIME
   font_family = JetBrainsMono Nerd Font
   font_size = 100
   position = 0, 100
