@@ -1,4 +1,5 @@
 {
+  "layer": "type",
   "position": "top",
   "modules-left": ["custom/arch", "hyprland/workspaces", "mpris"],
   "modules-center": ["clock"],
