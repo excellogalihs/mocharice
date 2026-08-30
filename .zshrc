@@ -25,3 +25,4 @@ push() {
   git commit -m "$*"
   git push
 }
+fastfetch
