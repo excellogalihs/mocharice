@@ -7,6 +7,14 @@ background {
   blur_size = 3
   blur_passes = 3
 }
+label {
+  text = $TIME
+  font_family = JetBrainsMono Nerd Font
+  font_size = 100
+  position = 0, 100
+  halign = center
+  valign = center
+}
 input-field {
   size = 300, 50
 }
