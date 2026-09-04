@@ -2,7 +2,7 @@
 local mainMod = "SUPER"
 local secondMod = "SUPER + SHIFT"
 local terminal = "kitty"
-local browser = "firefox"
+local browser = "zen-browser"
 local menu = "wofi"
 local fileManager = "kitty zsh -ic 'yazi'"
 local editor = "kitty zsh -ic 'nvim'"

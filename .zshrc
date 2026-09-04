@@ -17,6 +17,7 @@ alias s='nvim $(fzf --preview="bat --color=always {}")'
 alias t='tmux a -t workspace'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
+alias ok='cliamp ~/Music/'
 install() {
   yay -Slq | fzf -m --preview 'yay -Si {}' | xargs -ro yay -S --noconfirm
 }
