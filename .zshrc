@@ -15,7 +15,6 @@ alias s='nvim $(fzf --preview="bat --color=always {}")'
 alias t='tmux a -t workspace'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
-alias ok='cliamp ~/Music/'
 push() {
   git add .
   git commit -m "$*"
