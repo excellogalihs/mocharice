@@ -6,6 +6,7 @@ local browser = "zen-browser"
 local menu = "wofi"
 local fileManager = "kitty zsh -ic 'yazi'"
 local editor = "kitty zsh -ic 'nvim'"
+local music = "kitty zsh -ic 'cliamp'"
 local screenshot = "grim - | wl-copy"
 local package = "kitty zsh -ic './mocharice/package.sh'"
 local update = "kitty zsh -ic './mocharice/update.sh'"
@@ -18,6 +19,7 @@ hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(editor))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(music))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(screenshot))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(package))
 hl.bind(mainMod .. " + U", hl.dsp.exec_cmd(update))
