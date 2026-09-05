@@ -7,8 +7,8 @@ local menu = "wofi"
 local fileManager = "kitty zsh -ic 'yazi'"
 local editor = "kitty zsh -ic 'nvim'"
 local screenshot = "grim - | wl-copy"
-local package = "./mocharice/package.sh"
-local update = "./mocharice/update.sh"
+local package = "kitty zsh -ic './mocharice/package.sh'"
+local update = "kitty zsh -ic './mocharice/update.sh'"
 local wallpaper = "./mocharice/wallpaper.sh"
 
 -- Common keys
