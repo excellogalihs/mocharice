@@ -10,8 +10,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/omp.toml)"
-alias u='sudo pacman -Syu --noconfirm'
-alias uy='yay -Syu --noconfirm'
 alias i='yay -S --noconfirm'
 alias s='nvim $(fzf --preview="bat --color=always {}")'
 alias t='tmux a -t workspace'
