@@ -4,7 +4,7 @@ rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm hyprmod polycat wlogout cliamp-bin oh-my-posh-bin zen-browser-bin
+yay -S --noconfirm polycat wlogout cliamp-bin oh-my-posh-bin zen-browser-bin
 sudo tee /etc/pacman.conf <<EOF
 [options]
 HoldPkg = pacman glibc
