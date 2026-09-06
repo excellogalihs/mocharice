@@ -7,6 +7,6 @@ cp -rf ~/mocharice/.config/{fastfetch,gtk-3.0,hypr,kitty,nvim,waybar,wlogout,wof
 tmux new -ds workspace
 sudo pacman -Syu
 yay -Syu
-sudo pacman -S --noconfirm awww base-devel bat breeze-dark eza fastfetch fd fzf git grim gtk3 hyprland hyprlock hyprpolkitagent kitty nvim papirus-icon-theme power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo pacman -S --noconfirm awww base-devel bat breeze-dark eza fastfetch fd fzf git grim gtk3 hyprland hyprlock hyprpolkitagent kitty nvim opencode papirus-icon-theme power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
 yay -S --noconfirm hyprmod polycat wlogout cliamp-bin oh-my-posh-bin zen-browser-bin
 command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'

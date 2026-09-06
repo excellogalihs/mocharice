@@ -7,7 +7,7 @@
   "custom/arch": {
     "format": "  󰣇 ",
     "tooltip": false,
-    "on-click": "hyprmod"
+    "on-click": "wofi"
   },
   "hyprland/workspaces": {
     "persistent-workspaces": {
