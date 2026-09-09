@@ -12,9 +12,10 @@ eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/omp.toml)"
 alias i='yay -S --noconfirm'
 alias s='nvim $(fzf --preview="bat --color=always {}")'
-alias t='tmux a -t workspace'
 alias cd='z'
 alias ls='eza --tree --icons --level=1'
+alias tc='tmux new -ds workspace'
+alias t='tmux a -t workspace'
 push() {
   git add .
   git commit -m "$*"
