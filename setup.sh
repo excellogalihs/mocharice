@@ -5,7 +5,7 @@ rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm polycat wlogout cliamp-bin oh-my-posh-bin zen-browser-bin spotify-adblock-git
+yay -S --noconfirm polycat wlogout oh-my-posh-bin zen-browser-bin spotify-adblock-git
 sudo tee /etc/pacman.conf <<EOF
 [options]
 HoldPkg = pacman glibc
@@ -22,7 +22,6 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/mirrorlist
 EOF
 chsh -s $(which zsh)
-cp -rf ~/mocharice/Music/ ~/
 cp -rf ~/mocharice/.tmux.conf ~/
 cp -rf ~/mocharice/.zshrc ~/
 cp -rf ~/mocharice/.config/omp.toml ~/.config/
