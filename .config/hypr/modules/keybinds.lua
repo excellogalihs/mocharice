@@ -9,7 +9,7 @@ local editor = "kitty zsh -ic 'nvim'"
 local music = "kitty zsh -ic 'cliamp'"
 local screenshot = "grim - | wl-copy"
 local package = "kitty zsh -ic './mocharice/package.sh'"
-local update = "kitty zsh -ic './mocharice/update.sh'"
+local update = "kitty zsh -ic './mocharice/clone.sh'"
 local wallpaper = "./mocharice/wallpaper.sh"
 
 -- Common keys
