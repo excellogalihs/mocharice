@@ -5,7 +5,7 @@ rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm polycat wlogout oh-my-posh-bin zen-browser-bin spotify-adblock-git
+yay -S --noconfirm polycat wlogout oh-my-posh-bin zen-browser-bin
 sudo tee /etc/pacman.conf <<EOF
 [options]
 HoldPkg = pacman glibc
