@@ -4,6 +4,7 @@ git clone https://github.com/excellogalihs/mocharice
 cd mocharice
 chmod +x setup.sh
 chmod +x package.sh
+chmod +x remove.sh
 chmod +x update.sh
 chmod +x updates.sh
 chmod +x wallpaper.sh

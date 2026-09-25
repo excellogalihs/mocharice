@@ -8,6 +8,7 @@ local fileManager = "kitty zsh -ic 'yazi'"
 local editor = "kitty zsh -ic 'nvim'"
 local screenshot = "grim - | wl-copy"
 local package = "kitty zsh -ic './mocharice/package.sh'"
+local remove = "kitty zsh -ic './mocharice/remove.sh'"
 local update = "kitty zsh -ic './mocharice/update.sh'"
 local wallpaper = "./mocharice/wallpaper.sh"
 
@@ -20,6 +21,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(screenshot))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(package))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(remove))
 hl.bind(mainMod .. " + U", hl.dsp.exec_cmd(update))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(wallpaper))
 

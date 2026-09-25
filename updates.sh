@@ -1,4 +1,10 @@
 #!/bin/bash
+chmod +x setup.sh
+chmod +x package.sh
+chmod +x remove.sh
+chmod +x update.sh
+chmod +x updates.sh
+chmod +x wallpaper.sh
 cp -rf ~/mocharice/.tmux.conf ~/
 cp -rf ~/mocharice/.zshrc ~/
 cp -rf ~/mocharice/.config/omp.toml ~/.config/
