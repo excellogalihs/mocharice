@@ -30,5 +30,4 @@
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/excellogalihs/mocharice/main/install.sh)
 ```
-After that, open nwg-look and change the theme, icon theme, and font.
-That's basically it. You get a usable and beautiful Arch Linux Hyprland setup with the Catppuccin Mocha theme.
+After that, open nwg-look and change the theme, icon theme, and font. That's basically it. You get a usable and beautiful Arch Linux Hyprland setup with the Catppuccin Mocha theme.
