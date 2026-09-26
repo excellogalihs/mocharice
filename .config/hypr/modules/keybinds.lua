@@ -11,6 +11,7 @@ local package = "kitty zsh -ic './mocharice/package.sh'"
 local remove = "kitty zsh -ic './mocharice/remove.sh'"
 local update = "kitty zsh -ic './mocharice/update.sh'"
 local wallpaper = "./mocharice/wallpaper.sh"
+local anotherfileManager = "nautilus"
 
 -- Common keys
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
@@ -24,6 +25,7 @@ hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(package))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(remove))
 hl.bind(mainMod .. " + U", hl.dsp.exec_cmd(update))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(wallpaper))
+hl.bind(secondMod .. " + E", hl.dsp.exec_cmd(anotherfileManager))
 
 --Window float
 hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
