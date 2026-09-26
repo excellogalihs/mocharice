@@ -1,10 +1,10 @@
 #!/bin/bash
-sudo pacman -S --noconfirm awww base-devel bat breeze-gtk eza fastfetch fd fzf git grim hyprland hyprlock hyprpolkitagent kitty nvim nwg-look papirus-icon-theme power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo pacman -S --noconfirm awww base-devel bat eza fastfetch fd fzf git grim hyprland hyprlock hyprpolkitagent kitty nautilus nvim nwg-look papirus-icon-theme power-profiles-daemon ripgrep tmux tree-sitter-cli ttf-jetbrains-mono-nerd waybar wiremix wl-clipboard wofi xdg-desktop-portal-hyprland yazi zoxide zsh zsh-autosuggestions zsh-syntax-highlighting
 rm -rf yay
 git clone https://aur.archlinux.org/yay
 cd yay
 makepkg -si --noconfirm
-yay -S --noconfirm polycat wlogout oh-my-posh-bin zen-browser-bin
+yay -S --noconfirm catppuccin-gtk-theme-mocha polycat wlogout oh-my-posh-bin zen-browser-bin
 sudo tee /etc/pacman.conf <<EOF
 [options]
 HoldPkg = pacman glibc
