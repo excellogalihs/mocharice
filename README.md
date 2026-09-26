@@ -11,18 +11,19 @@
 10. SUPER + R = Remove installed packages
 11. SUPER + W = Switch wallpaper
 12. SUPER + F = Toggle window float
-13. ALT + C = Poweroff system
-14. ALT + V = Reboot system
-15. ALT + M = Logout
-16. ALT + L = Lock system
-17. SUPER + H/J/K/L = Window navigation
+13. SUPER + SHIFT + E = Open nautilus file manager
+14. ALT + C = Poweroff system
+15. ALT + V = Reboot system
+16. ALT + M = Logout
+17. ALT + L = Lock system
+18. SUPER + H/J/K/L = Window navigation
 18. SUPER + SHIFT + H/J/K/L = Move Window
-19. SUPER + 1-9 = Switch workspaces
-20. SUPER + SHIFT + 1-9 = Move window to another workspace
-21. SUPER + X = Volume up
-22. SUPER + Z = Volume down
-23. SUPER + SHIFT + X = Brightness up
-24. SUPER + SHIFT + Z = Brightness down
+20. SUPER + 1-9 = Switch workspaces
+21. SUPER + SHIFT + 1-9 = Move window to another workspace
+22. SUPER + X = Volume up
+23. SUPER + Z = Volume down
+24. SUPER + SHIFT + X = Brightness up
+25. SUPER + SHIFT + Z = Brightness down
 # Prerequisites
 1. A fully functional Arch Linux setup (installed with hyprland using the archinstall script)
 2. Curl
