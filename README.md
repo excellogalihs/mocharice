@@ -7,20 +7,22 @@
 5. SUPER + E = Open yazi file manager
 6. SUPER + N = Open nvim editor
 7. SUPER + S = Screenshot and copy it to clipboard
-8. SUPER + W = Switch wallpaper
-9. SUPER + F = Toggle window float
-10. ALT + C = Poweroff system
-11. ALT + V = Reboot system
-12. ALT + M = Logout
-13. ALT + L = Lock system
-14. SUPER + H/J/K/L = Window navigation
-15. SUPER + SHIFT + H/J/K/L = Move Window
-16. SUPER + 1-9 = Switch workspaces
-17. SUPER + SHIFT + 1-9 = Move window to another workspace
-18. SUPER + X = Volume up
-19. SUPER + Z = Volume down
-20. SUPER + SHIFT + X = Brightness up
-21. SUPER + SHIFT + Z = Brightness down
+9. SUPER + P = Install packages
+10. SUPER + R = Remove installed packages
+11. SUPER + W = Switch wallpaper
+12. SUPER + F = Toggle window float
+13. ALT + C = Poweroff system
+14. ALT + V = Reboot system
+15. ALT + M = Logout
+16. ALT + L = Lock system
+17. SUPER + H/J/K/L = Window navigation
+18. SUPER + SHIFT + H/J/K/L = Move Window
+19. SUPER + 1-9 = Switch workspaces
+20. SUPER + SHIFT + 1-9 = Move window to another workspace
+21. SUPER + X = Volume up
+22. SUPER + Z = Volume down
+23. SUPER + SHIFT + X = Brightness up
+24. SUPER + SHIFT + Z = Brightness down
 # Prerequisites
 1. A fully functional Arch Linux setup (installed with hyprland using the archinstall script)
 2. Curl
@@ -28,4 +30,5 @@
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/excellogalihs/mocharice/main/install.sh)
 ```
+After that, open nwg-look and change the theme, icon theme, and font.
 That's basically it. You get a usable and beautiful Arch Linux Hyprland setup with the Catppuccin Mocha theme.
