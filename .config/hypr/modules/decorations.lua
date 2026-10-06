@@ -9,18 +9,6 @@ hl.config({
 		},
 		layout = "dwindle",
 	},
-	decoration = {
-		active_opacity = 1.0,
-		inactive_opacity = 0.5,
-		blur = {
-			enabled = true,
-			size = 3,
-			passes = 3,
-		},
-	},
-	animations = {
-		enabled = true,
-	},
 })
 hl.curve("smooth", {
 	type = "bezier",
